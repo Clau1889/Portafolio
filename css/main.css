@@ -13,11 +13,6 @@
     background-color: rgba(211, 135, 194, 0.85);
 }
 
-#about-me .container-fluid{
-    background: url("../assets/images/white-wood.jpg")no-repeat center center;
-    background-size: cover;
-}
-
 .hm-gradient .full-bg-img{
     background: -webkit-linear-gradient(45deg, rgba(83, 125, 210, 0.4), rgba(178, 30, 123, 0.4) 100%);
     background: -webkit-gradient(linear, 45deg, from(rgba(29, 236, 197, 0.4)), to(rgba(96, 0, 136, 0.4)));
@@ -29,28 +24,71 @@ h6 {
     line-height: 1.7;
 }
 
+/*   Main ---> About me   */
+#about-me .container-fluid{
+    background: url("../assets/images/white-wood.jpg")no-repeat center center;
+    background-size: cover;
+}
 
 .photo {
     max-width: 12rem;
     border: 2px solid rgb(243, 207, 240);
     border-radius: 1rem;
     padding: 0.5rem;
-    box-shadow: 0 1rem 3rem 0 rgb(219, 173, 215);
 }
 
 .information{
+    background-color: rgba(245, 245, 245, 0.527);
     border-radius: 1rem;
+    border: 2px solid rgb(243, 207, 240);
 }
 
-.information > h2 {
+h2 {
     color: rgb(207, 91, 178);
+    font-size: 250%;
     text-shadow: 2px 2px 3px rgb(102, 99, 99), 0 0 25px rgba(243, 151, 251, 0.967);
 }
 
 .information > p{
-    color: rgb(246, 237, 237);
-    text-shadow: 2px 2px 3px black, 0 0 25px rgba(158, 23, 248, 0.967), 0 0 10px rgb(150, 43, 123);
+    color: rgb(60, 0, 100);
     font-size: 120%;
+}
+
+/*   Section ---> Projects   */
+#projects .container-fluid{
+    background: url("../assets/images/white-wood.jpg")no-repeat center center;
+    background-size: cover;
+}
+
+.card-project{
+    background: -webkit-linear-gradient(45deg, rgba(83, 125, 210, 0.4), rgba(178, 30, 123, 0.4) 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgba(29, 236, 197, 0.4)), to(rgba(96, 0, 136, 0.4)));
+    background: linear-gradient(to 45deg, rgba(29, 236, 197, 0.4), rgba(96, 0, 136, 0.4) 100%);
+}
+
+.text-project{
+    text-shadow: 1px 1px 2px rgb(60, 0, 100);
+    font-size: 110%;
+}
+
+#project-img-jewel{
+    background: url("../assets/images/jewel-shop.png")no-repeat center center;
+    box-shadow: 0 1rem 1rem 0 rgb(219, 173, 215);
+}
+
+h3, h5{
+    text-shadow: 1px 1px 1px rgb(60, 0, 100);
+}
+
+.item-chip{
+    background:-webkit-linear-gradient(45deg, rgba(83, 125, 210, 0.3), rgba(178, 30, 123, 0.3) 100%);
+    color: rgb(60, 0, 100);
+    margin: auto;
+    border-radius: 0 1rem;
+}
+
+.item-chip:hover{
+    color:rgb(234, 236, 104);
 }
 
 @media (max-width: 768px) {
@@ -61,12 +99,5 @@ h6 {
     .photo {
         max-width: 10rem; 
     }
-
-    .information > p{
-        color: rgb(246, 237, 237);
-        text-shadow: 2px 2px 3px black, 0 0 25px rgba(158, 23, 248, 0.967), 0 0 10px rgb(150, 43, 123);
-        font-size: 100%;
-    }
-
 }
 

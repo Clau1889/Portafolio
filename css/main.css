@@ -29,6 +29,7 @@ h6 {
     line-height: 1.7;
 }
 
+
 .photo {
     max-width: 10rem;
     border: 2px solid rgb(243, 207, 240);
@@ -42,8 +43,8 @@ h6 {
 }
 
 .information > h2 {
-    color: rgb(150, 43, 123);
-    text-shadow: 2px 2px 3px rgb(104, 104, 104), 0 0 25px rgba(243, 151, 251, 0.967);
+    color: rgb(207, 91, 178);
+    text-shadow: 2px 2px 3px rgb(102, 99, 99), 0 0 25px rgba(243, 151, 251, 0.967);
 }
 
 .information > p{

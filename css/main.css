@@ -2,7 +2,7 @@
     background: url("../assets/images/traveling-background.jpg")no-repeat center center;
     background-size: cover;
 }
- .top-nav-collapse {
+.top-nav-collapse {
     background-color: rgba(216, 112, 147, 0.5);
 } 
 .navbar:not(.top-nav-collapse) {
@@ -78,23 +78,19 @@ h2 {
 }
 
 #project-img-jewel{
-    background: url("../assets/images/jewel-shop.png")no-repeat center center;
-    box-shadow: 0 1rem 1rem 0 rgb(219, 173, 215);
+    background: url("../assets/images/jewel-shop.jpg")no-repeat center center;
 }
 
 #project-img-validator{
-    background: url("../assets/images/card-validator-laboratoria.png")no-repeat center center;
-    box-shadow: 0 1rem 1rem 0 rgb(219, 173, 215);
+    background: url("../assets/images/card-validator.png")no-repeat center center;
 }
 
 #project-img-giphy{
-    background: url("../assets/images/giphy-search-laboratoria.png")no-repeat center center;
-    box-shadow: 0 1rem 1rem 0 rgb(219, 173, 215);
+    background: url("../assets/images/giphy.jpg")no-repeat center center;
 }
 
 #project-img-pokedex{
-    background: url("../assets/images/pokedex-laboratoria.png")no-repeat center center;
-    box-shadow: 0 1rem 1rem 0 rgb(219, 173, 215);
+    background: url("../assets/images/pokedex.png")no-repeat center center;
 }
 
 h3, h5{

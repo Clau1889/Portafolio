@@ -31,7 +31,7 @@ h6 {
 
 
 .photo {
-    max-width: 10rem;
+    max-width: 12rem;
     border: 2px solid rgb(243, 207, 240);
     border-radius: 1rem;
     padding: 0.5rem;
@@ -50,11 +50,22 @@ h6 {
 .information > p{
     color: rgb(246, 237, 237);
     text-shadow: 2px 2px 3px black, 0 0 25px rgba(158, 23, 248, 0.967), 0 0 10px rgb(150, 43, 123);
+    font-size: 120%;
 }
 
 @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
         background-color: rgb(211, 135, 194);
+    }
+
+    .photo {
+        max-width: 10rem; 
+    }
+
+    .information > p{
+        color: rgb(246, 237, 237);
+        text-shadow: 2px 2px 3px black, 0 0 25px rgba(158, 23, 248, 0.967), 0 0 10px rgb(150, 43, 123);
+        font-size: 100%;
     }
 
 }

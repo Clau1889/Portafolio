@@ -87,6 +87,16 @@ h2 {
     box-shadow: 0 1rem 1rem 0 rgb(219, 173, 215);
 }
 
+#project-img-giphy{
+    background: url("../assets/images/giphy-search-laboratoria.png")no-repeat center center;
+    box-shadow: 0 1rem 1rem 0 rgb(219, 173, 215);
+}
+
+#project-img-pokedex{
+    background: url("../assets/images/pokedex-laboratoria.png")no-repeat center center;
+    box-shadow: 0 1rem 1rem 0 rgb(219, 173, 215);
+}
+
 h3, h5{
     text-shadow: 1px 1px 1px rgb(60, 0, 100);
 }

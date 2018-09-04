@@ -7,11 +7,11 @@
 } 
 
 .navbar:not(.top-nav-collapse) {
-    background-color: rgb(211, 135, 194);
+    background-color: rgb(153, 126, 158);
 }
 
 .navbar {
-    background-color: rgba(211, 135, 194, 0.85);
+    background-color: rgb(153, 126, 158, 0.85);
 }
 
 .hm-gradient .full-bg-img{
@@ -29,7 +29,7 @@ h6 {
 #about-me .container-fluid{
     background: url("../assets/images/white-wood.jpg")no-repeat center center;
     background-size: cover;
-}
+}  
 
 .photo {
     max-width: 12rem;
@@ -39,19 +39,18 @@ h6 {
 }
 
 .information{
-    background-color: rgba(245, 245, 245, 0.527);
+    background-color: rgba(215, 177, 222, 0.6);
     border-radius: 1rem;
-    border: 2px solid rgb(243, 207, 240);
+    border: 2px solid rgb(215, 177, 222);
 }
 
 h2 {
-    color: rgb(207, 91, 178);
+    color: rgb(79, 49, 82);
     font-size: 250%;
-    text-shadow: 2px 2px 3px rgb(102, 99, 99), 0 0 25px rgba(243, 151, 251, 0.967);
 }
 
 .information > p{
-    color: rgb(60, 0, 100);
+    color: rgb(91, 75, 94);
     font-size: 120%;
 }
 
@@ -59,22 +58,24 @@ h2 {
 #projects, #tech-skills > .container-fluid{
     background: url("../assets/images/white-wood.jpg")no-repeat center center;
     background-size: cover;
-}
+} 
 
 .card-project, #contact-me > .container-fluid {
-    background: -webkit-linear-gradient(45deg, rgba(83, 125, 210, 0.4), rgba(178, 30, 123, 0.4) 100%);
+    /* background: -webkit-linear-gradient(45deg, rgba(83, 125, 210, 0.4), rgba(178, 30, 123, 0.4) 100%);
     background: -webkit-gradient(linear, 45deg, from(rgba(29, 236, 197, 0.4)), to(rgba(96, 0, 136, 0.4)));
-    background: linear-gradient(to 45deg, rgba(29, 236, 197, 0.4), rgba(96, 0, 136, 0.4) 100%);
+    background: linear-gradient(to 45deg, rgba(29, 236, 197, 0.4), rgba(96, 0, 136, 0.4) 100%); */
+    background-color: rgba(190, 157, 196, 0.6);
 }
 
-.card-project-2{
+/* .card-project-2{
     background: -webkit-linear-gradient(45deg, rgba(178, 30, 123, 0.4),rgba(83, 125, 210, 0.4) 100%);
     background: -webkit-gradient(linear, 45deg, from(rgba(96, 0, 136, 0.4)), to(rgba(29, 236, 197, 0.4)));
-    background: linear-gradient(to 45deg, rgba(29, 236, 197, 0.4), rgba(96, 0, 136, 0.4) 100%);
-}
+    background: linear-gradient(to 45deg, rgba(29, 236, 197, 0.4), rgba(96, 0, 136, 0.4) 100%); 
+    background-color: rgba(190, 157, 196, 0.6);
+} */
 
 .text-project{
-    text-shadow: 1px 1px 2px rgb(60, 0, 100);
+    color: rgb(91, 75, 94);
     font-size: 110%;
 }
 
@@ -96,12 +97,12 @@ h2 {
 }
 
 h3, h5{
-    text-shadow: 1px 1px 1px rgb(60, 0, 100);
+    color: rgb(91, 75, 94);
 }
 
 .item-chip{
     background:-webkit-linear-gradient(45deg, rgba(83, 125, 210, 0.3), rgba(178, 30, 123, 0.3) 100%);
-    color: rgb(60, 0, 100);
+    color: rgb(91, 75, 94);
     margin: auto;
     border-radius: 0 1rem;
 }
@@ -110,13 +111,15 @@ h3, h5{
     color:rgb(234, 236, 104);
 }
 
+.btn{
+    background-color: rgb(153, 126, 158);
+}
+
 .logo{
     max-height: 10rem;
 }
 
-.responsive{
-    max-height: 15rem;
-}
+
 
 @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
@@ -128,7 +131,8 @@ h3, h5{
     }
 
     .logo{
-        max-height: 6rem;
+        max-height: 8rem;
+        max-width: 6rem;
     }
 }
 

@@ -110,6 +110,13 @@ h3, h5{
     color:rgb(234, 236, 104);
 }
 
+.logo{
+    max-height: 10rem;
+}
+
+.responsive{
+    max-height: 15rem;
+}
 
 @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
@@ -118,6 +125,10 @@ h3, h5{
 
     .photo {
         max-width: 10rem; 
+    }
+
+    .logo{
+        max-height: 6rem;
     }
 }
 

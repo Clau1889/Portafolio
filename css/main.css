@@ -5,6 +5,7 @@
 .top-nav-collapse {
     background-color: rgba(216, 112, 147, 0.5);
 } 
+
 .navbar:not(.top-nav-collapse) {
     background-color: rgb(211, 135, 194);
 }
@@ -55,12 +56,12 @@ h2 {
 }
 
 /*   Section ---> Projects   */
-#projects .container-fluid{
+#projects, #tech-skills > .container-fluid{
     background: url("../assets/images/white-wood.jpg")no-repeat center center;
     background-size: cover;
 }
 
-.card-project{
+.card-project, #contact-me > .container-fluid {
     background: -webkit-linear-gradient(45deg, rgba(83, 125, 210, 0.4), rgba(178, 30, 123, 0.4) 100%);
     background: -webkit-gradient(linear, 45deg, from(rgba(29, 236, 197, 0.4)), to(rgba(96, 0, 136, 0.4)));
     background: linear-gradient(to 45deg, rgba(29, 236, 197, 0.4), rgba(96, 0, 136, 0.4) 100%);
@@ -109,9 +110,10 @@ h3, h5{
     color:rgb(234, 236, 104);
 }
 
+
 @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
-        background-color: rgb(211, 135, 194);
+        background-color: rgb(211, 135, 194, 0.6);
     }
 
     .photo {

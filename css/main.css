@@ -120,7 +120,6 @@ h3, h5{
 }
 
 
-
 @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
         background-color: rgb(211, 135, 194, 0.6);
@@ -134,5 +133,7 @@ h3, h5{
         max-height: 8rem;
         max-width: 6rem;
     }
+
+
 }
 
